@@ -1,6 +1,7 @@
 # CS50
-C# vcoding tasks from Harvard CS50 course.
+C# coding tasks from Harvard CS50 course.
+Description:
 <details>
-  <summary>Click to expand</summary>
-  whatever
+  <summary>hello.c</summary>
+  Standard hello world application :)
 </details>
