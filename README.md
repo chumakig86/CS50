@@ -16,6 +16,7 @@ C# coding tasks from Harvard CS50 course.
     </ul>
     </li>
   <li>You need not try to check whether a user’s input is too large to fit in a float. Using get_float alone will ensure that the user’s input is indeed a floating-point (or integral) value but not that it is non-negative.</li>
-    
+<li> If the user fails to provide a non-negative value, your program should re-prompt the user for a valid amount again and again until the user complies. </li>
+<li>Incidentally, so that we can automate some tests of your code, we ask that your program’s last line of output be only the minimum number of coins possible: an integer followed by \n.</li>
 </ul>  
 </details>
