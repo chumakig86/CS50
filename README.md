@@ -2,10 +2,6 @@
 C# coding tasks from Harvard CS50 course.
 <p>Description:</p>
 <details>
-  <summary>hello.c</summary>
-  Standard hello world application :)
-</details>
-<details>
   <summary>cash.c</summary>
   <ul>
   <li>Write, in a file called cash.c in ~/workspace/pset1/cash/, a program that first asks the user how much change is owed and then spits out the minimum number of coins with which said change can be made.</li>
@@ -19,4 +15,12 @@ C# coding tasks from Harvard CS50 course.
 <li> If the user fails to provide a non-negative value, your program should re-prompt the user for a valid amount again and again until the user complies. </li>
 <li>Incidentally, so that we can automate some tests of your code, we ask that your program’s last line of output be only the minimum number of coins possible: an integer followed by \n.</li>
 </ul>  
+</details>
+<details>
+  <summary>hello.c</summary>
+  Standard hello world application :)
+</details>
+<details>
+  <summary>mario.c</summary>
+  Write a program in C that recreates a half-pyramid using hashes (#) for blocks. Prompt the user for the half-pyramid’s height and align the bottom-left corner of the half-pyramid with the left-hand edge of the terminal window.
 </details>
