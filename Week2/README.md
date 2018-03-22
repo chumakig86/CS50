@@ -54,5 +54,35 @@
 </ul>
 </div>
 </details>
+<details>
+ <summary>vigenere.c</summary>
+<p>Design and implement a program that encrypts messages using Vigenère&#8217;s cipher.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Implement your program in a file called <code>vigenere.c</code> in a directory called <code>vigenere</code>.</p>
+</li>
+<li>
+<p>Your program must accept a single command-line argument: a keyword, <em>k</em>, composed entirely of alphabetical characters.</p>
+</li>
+<li>
+<p>If your program is executed without any command-line arguments, with more than one command-line argument, or with one command-line argument that contains any non-alphabetical character, your program should print an error (of your choice) and exit immediately, with <code>main</code> returning <code>1</code> (thereby signifying an error).</p>
+</li>
+<li>
+<p>Otherwise, your program must proceed to prompt the user for a string of plaintext, <em>p</em>, (as by a prompt for <code>plaintext:</code>) which it must then encrypt according to Vigenère&#8217;s cipher with <em>k</em>, ultimately printing the result (prepended with <code>ciphertext:</code> and ending with a newline) and exiting, with <code>main</code> returning <code>0</code>.</p>
+</li>
+<li>
+<p>With respect to the characters in <em>k</em>, you must treat <code>A</code> and <code>a</code> as 0, <code>B</code> and <code>b</code> as 1, &#8230;&#8203; , and <code>Z</code> and <code>z</code> as 25.</p>
+</li>
+<li>
+<p>Your program must only apply Vigenère&#8217;s cipher to a character in <em>p</em> if that character is a letter. All other characters (numbers, symbols, spaces, punctuation marks, etc.) must be outputted unchanged. Moreover, if your code is about to apply the <em>j<sup>th</sup></em> character of <em>k</em> to the <em>i<sup>th</sup></em> character of <em>p</em>, but the latter proves to be a non-alphabetical character, you must wait to apply that <em>j<sup>th</sup></em> character of <em>k</em> to the next alphabetical character in <em>p</em>; you must not yet advance to the next character in <em>k</em>.</p>
+</li>
+<li>
+<p>Your program must preserve the case of each letter in <em>p</em>.</p>
+</li>
+</ul>
+</div>
+</details>
 
 
