@@ -12,4 +12,4 @@ Original image: small.bmp
 ![small.bmp](https://raw.githubusercontent.com/chumakig86/CS50/master/Week4/resize/small.bmp "small.bmp")
 
 Resized image (100x zoom): large.bmp
-![large.bmp]( "large.bmp")
+![large.bmp](https://raw.githubusercontent.com/chumakig86/CS50/master/Week4/resize/large.bmp "large.bmp")
