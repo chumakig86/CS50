@@ -19,3 +19,5 @@ Now, I only have one CF card, but there are a whole lot of you! And so I’ve go
 For simplicity, you should hard-code "card.raw" in your program; your program need not accept any command-line arguments. When executed, though, your program should recover every one of the JPEGs from card.raw, storing each as a separate file in your current working directory. Your program should number the files it outputs by naming each ###.jpg, where ### is three-digit decimal number from 000 on up. (Befriend sprintf.) You need not try to recover the JPEGs' original names. To check whether the JPEGs your program spit out are correct, simply double-click and take a look! If each photo appears intact, your operation was likely a success!
 
 ### solution
+![Recovered image 1](https://github.com/chumakig86/CS50/blob/master/Week4/recover/000.jpg)
+![Recovered image 2](https://github.com/chumakig86/CS50/blob/master/Week4/recover/006.jpg)
