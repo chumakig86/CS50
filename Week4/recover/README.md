@@ -21,8 +21,3 @@ For simplicity, you should hard-code "card.raw" in your program; your program ne
 ### solution
 ![Recovered image 1](https://github.com/chumakig86/CS50/blob/master/Week4/recover/000.jpg)
 ![Recovered image 2](https://github.com/chumakig86/CS50/blob/master/Week4/recover/006.jpg)
-<details>
-  <summary>solution</summary>
-  ![Recovered image 1](https://github.com/chumakig86/CS50/blob/master/Week4/recover/000.jpg)
-![Recovered image 2](https://github.com/chumakig86/CS50/blob/master/Week4/recover/006.jpg)
-</details>
